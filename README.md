@@ -15,6 +15,8 @@ This is a neural network that takes an image described in a [CSV](https://en.wik
 
 ## Forwarding Input
 
+ ![Net](/images/net.png)
+
 The structural nature of the neural network allows its inputs, outputs and weight links to be represented by matrixes.
 
 1. The sum from the inputs is multiplied by the link weights connecting to each respective node
@@ -35,6 +37,8 @@ The structural nature of the neural network allows its inputs, outputs and weigh
 2. The link weights should be updated in regards to the error. Each node can produce an error and multiple link weights could have contributed to this error. The error of the final layer can be back propagated to the previous by multiplying the the transposed weights matrix by the error matrix. Transposed because the relation is now flipped as it going in the other direction:
 
 Going forward, weights `[11 21]` contribute to the input into node 1 in the second layer (the blue node). Going back - weights `[11 12]` contribute to the input to node 1 in the first layer (the orange neuron).
+
+![transpose](/images/transposed.png)
 
 ## Learning
 
