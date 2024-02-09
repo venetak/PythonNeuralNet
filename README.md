@@ -1,5 +1,8 @@
 # Image Recognition Neural Network in Python
 
+![Net](/images/AI.gif)
+
+
 This is a neural network that takes an image described in a [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) format and outputs the number that it has recognized. The CSV is generated from the [MNIST database of handwritten images](https://en.wikipedia.org/wiki/MNIST_database).
 
 # How it Works
