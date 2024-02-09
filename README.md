@@ -46,7 +46,7 @@ Going forward, weights `[11 21]` contribute to the input into node 1 in the seco
 
 ## Learning
 
-It uses gradient decent optimization algorithm to find the minimum of the error function. The error function is the square of the different between the output and the target:
+It uses gradient decent optimization algorithm to find the minimum of the error function. The error function is the square of the difference between the output and the target:
 
 Error = $(target - actual)^2$
 
