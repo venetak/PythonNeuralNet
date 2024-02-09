@@ -21,7 +21,7 @@ This is a neural network that takes an image described in a [CSV](https://en.wik
 
  ![Net](/images/net.png)
 
-The structural nature of the neural network allows its inputs, outputs and weight links to be represented by matrixes.
+The structural nature of the neural network allows its inputs, outputs and weight links to be represented by matrices.
 
 1. The sum from the inputs is multiplied by the link weights connecting to each respective node
     - this is the dot product of the weights and the inputs matrices; the result `X` is the moderated signals passed as an input to the next layer
