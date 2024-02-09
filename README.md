@@ -5,7 +5,8 @@
 
 This is a neural network that takes an image described in a [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) format and outputs the number that it has recognized. The CSV is generated from the [MNIST database of handwritten images](https://en.wikipedia.org/wiki/MNIST_database).
 
-# How it Works
+# How it Works[^1]
+[^1]: [Make Your Own Neural Network by Tariq Rashid](https://www.amazon.com/Make-Your-Own-Neural-Network/dp/1530826608)
 
 ## Structure
 
